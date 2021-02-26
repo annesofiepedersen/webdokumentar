@@ -1,0 +1,208 @@
+/**
+ * file: style.css
+ * purpose: styles, animation etc
+ * further development: meyer reset perhaps?
+ **/
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fffff7;
+}
+
+
+#beLight {
+    
+    position: absolute;
+    padding-top: 75px;
+    margin-left: 325px;
+    z-index: 11;
+    
+}
+
+
+#wrapper::before {
+    content: "";
+    z-index: 10;
+    display: block;
+    position: absolute;
+    height: 100%;
+    top: 50;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+
+.container {
+
+    width: 550px;
+    margin: 0 auto;
+    height: 100vh;
+
+}
+
+
+
+
+#lightbulb {
+    width: 550px;
+
+}
+
+
+#growLogo {
+    display: block;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: -100px;
+    width: 800px;
+}
+
+
+
+a > #link1{
+    display: block;
+    position: absolute;
+    width: 100px;
+ bottom: 50px;
+      margin-left: 50%;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+
+#containerMain{
+    background-color: lightcyan;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+     height: 100vh;
+}
+
+#growH1{
+    padding: 30px;
+    font-size: 40px;
+    width: 700px;
+    margin: auto;
+}
+
+
+#ytplayer{
+    padding-top: 50px;
+    padding-bottom: 200px;
+    width: 800px;
+    height: 450px;
+ 
+}
+
+
+.box{
+    height:100vh;
+    width: 100%;
+}
+
+.single-box .div-left{
+    width 49%;
+    height: auto;
+    float: left;
+}
+
+.single-box .div-right{
+    width 49%;
+    height: auto;
+    float: right;
+}
+
+
+#conversation{
+
+    background-color: #fffff7;
+
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+
+}
+
+
+#characters{
+    display: flex;
+    position: relative;
+  justify-content: space-between; 
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 100px;      
+
+}
+
+
+#right img{
+padding-top: 70px;
+}
+
+
+
+
+
+@media only screen and (max-width: 1100px) {
+    #growH1{ padding: 0px;
+    font-size: 30px;
+    width: 700px;
+    margin: auto;
+    }
+    
+    #ytplayer {
+    height: 360px;
+    width: 640px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+      #growH1{ padding: 0px;
+    font-size: 25px;
+    width: 300px;
+    margin: auto;
+    }
+    
+  #ytplayer {
+    height: 180px;
+    width: 320px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

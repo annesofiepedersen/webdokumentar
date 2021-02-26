@@ -1,6 +1,4 @@
-JavaScript Boilerplates
-=======================
+Images
+======
 
-In this directory you'll find several JavaScript boilterplates.
-
-* jsBoilerplate.html: Vanilla JavaScript
+You could add your images in this folder

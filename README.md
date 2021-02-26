@@ -1,2 +1,6 @@
-# webdokumentar
-Magnus, Monica og Anne Sofie - webdokumentar 2sem. 
+JavaScript Boilerplates
+=======================
+
+In this directory you'll find several JavaScript boilterplates.
+
+* jsBoilerplate.html: Vanilla JavaScript

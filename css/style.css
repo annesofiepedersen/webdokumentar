@@ -67,8 +67,6 @@ body {
     width: 800px;
 }
 
-
-
 a > #link1{
     display: block;
     position: absolute;
@@ -81,7 +79,7 @@ a > #link1{
 
 
 #containerMain{
-    background-color: lightcyan;
+    background-color: #DAE4F5;
     padding-top: 100px;
     padding-bottom: 200px;
     width: 100%;
